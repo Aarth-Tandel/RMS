@@ -1,0 +1,153 @@
+<title>Vascos</title>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="~/CSS/materialize.css" rel="stylesheet" />
+<script src="~/Scripts/materialize.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.parallax').parallax();
+        $('.modal').modal();
+    });
+</script>
+<script src="~/Scripts/Validations/LoginValidations.js"></script>
+<script src="~/Scripts/Validations/UserDetailsValidation.js"></script>
+
+<nav class="grey darken-4">
+    <div class="nav-wrapper">
+        <a class="brand-logo center">Vascos</a>
+        <ul class="right">
+            <li><a class="waves-effect waves-yellow small" href="#LogIn">Log In</a></li>
+            <li><a class="waves-effect waves-yellow small" href="#SignUp">Sign Up</a></li>
+        </ul>
+    </div>
+</nav>
+
+<div class="parallax-container" style="width:100%">
+    <div class="parallax">
+        <img src="~/Images/ac9862ed9501757888707fd453ab8088.jpg" />
+    </div>
+</div>
+<div class="section white">
+    <div class="row container">
+        <main>
+            <div class="row">
+                <div class="col s6">
+                    <p class="flow-text">
+                        <img src="~/Icons/ic_fingerprint_black_48dp_2x.png" align="left" height="70px" width="70px" />
+                        We provide the best securtiy money can offer.
+                        With military grade 256 bit Encryption.
+                    </p>
+                </div>
+                <div class="col s6">
+                    <p class="flow-text">
+
+                        <img src="~/Icons/ic_explore_black_48dp_2x.png" align="left" height="70px" width="70px" />
+                        From offices in North America, Europe, and Asia, we deliver solutions to clients around the world.
+                    </p>
+                </div>
+                <div class="col s6">
+                    <p class="flow-text">
+
+                        <img src="~/Icons/ic_favorite_black_48dp_2x.png" align="left" height="70px" width="70px" />
+                        Our Core Values are embedded in all that we do. In every engagement and every client relationship.
+                    </p>
+                </div>
+                <div class="col s6">
+                    <p class="flow-text">
+                        <img src="~/Icons/ic_cloud_black_48dp_2x.png" align="left" height="70px" width="70px" />
+                        Vascos utilizes its wealth to provide business solutions to all major industries.
+                    </p>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+<div class="parallax-container">
+    <div class="parallax"><img src="~/Images/login1.jpg"></div>
+</div>
+
+<div class="row container" style="margin-top:5%">
+    <div class="col s6 left-align">
+        <img src="~/Images/healthcare.jpg" />
+    </div>
+    <div class="col s6 left-align">
+        <h3>
+            BMI Healthcare Elevates Patient Care with Cloud
+        </h3>
+        <p>
+            BMI Healthcare, the UK’s largest independent hospital group, turned to Vascos’
+            best practices and acceleration capabilities to assist with crafting a solution to replace its legacy integration system.
+            It is just not UK we are transforming all the healthcare services across the world.
+        </p>
+    </div>
+</div>
+
+<div class="row container" style="margin-top:2%">
+    <div class="col s6 left-align">
+        <h3>
+            Five Critical Success Factors for Managed Services Delivery
+        </h3>
+        <p>
+            Vascos can help drive success by focusing heavily on the integration of multiple players in support services. In this white paper,
+            we share lessons learned as a participant in a multi-sourced IT support operation and how you can leverage this in your own operations.
+            Our latest innovation in computaional intelligence has saved millions of dollars for our clients.
+        </p>
+    </div>
+    <div class="col s6 right-align">
+        <img src="~/Images/Untitled-5.png" />
+    </div>
+</div>
+
+<footer class="grey darken-4 page-footer">
+    <div class="container">
+        <div class="row">
+            <div class="col l5 s12">
+                <h5 class="white-text">About Us</h5>
+                <p class="grey-text text-lighten-4">
+                    Our commitment to client success is at the core of our business.
+                    We are proud to count over 150 Fortune 1000 companies as trusted clients who rely on our breadth of knowledge, skilled consultants,
+                    proven experience and technology accelerators to implement their IT vision.
+                </p>
+            </div>
+            <div class="col l3 offset-l1 s12">
+                <h5 class="white-text">Connect With Us</h5>
+                <ul>
+                    <li style="display:inline">
+                        <img src="~/Images/linkedin.png" />
+                    </li>
+                    <li style="display:inline">
+                        <img src="~/Images/pinterest.png" />
+                    </li>
+                    <li style="display:inline">
+                        <img src="~/Images/twitter.png" />
+                    </li>
+                    <li style="display:inline">
+                        <img src="~/Images/facebook-box.png" />
+                    </li>
+                </ul>
+            </div>
+            <div class="col l2 offset-l1 s12">
+                <h5 class="white-text">Product</h5>
+                <ul class="white-text">
+                    <li>
+                        <p>Security</p>
+                    </li>
+                    <li>
+                        <p>Cloud Computing</p>
+                    </li>
+                    <li>
+                        <p>Cognitive Intelligence</p>
+                    </li>
+                    <li>
+                        <p>Health</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="container">
+            <p class="center-align white-text">&copy; @DateTime.Now.Year - Vascos Corportaion Limited</p>
+        </div>
+    </div>
+</footer>
