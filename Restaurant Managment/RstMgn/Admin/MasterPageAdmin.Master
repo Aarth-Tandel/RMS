@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPageAdmin.master.cs" Inherits="RstMgn.Admin.MasterPageAdmin" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Vascos-Admin</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="../js/materialize.min.js"></script>
+    <link href="../css/materialize.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            $(".button-collapse").sideNav();
+            $('.modal').modal();
+        });
+    </script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color: #ee6e73; height: 50px">
+            <a href="#" data-activates="slide-out" class="button-collapse" style="padding: 5px 0 5px 5px"><i class="material-icons white-text">menu</i></a>
+            <a href="#" class="white-text" style="font-size: 30px; margin-left: 45%;">Vascos</a>
+        </div>
+        <div>
+            <ul id="slide-out" class="side-nav">
+                <li>
+                    <div class="userView">
+                        <div class="background">
+                            <img src="../Images/back3.jpg" />
+                        </div>
+                        <a href="#!user">
+                            <img class="circle" src="../Images/my.jpg" />
+                        </a>
+                        <a href="#!name"><span class="white-text name">Aarth Tandel</span></a>
+                        <a href="#!email"><span class="white-text email">aarth@gmail.com</span></a>
+                    </div>
+                </li>
+                <li><a href="#!"><i class="material-icons">cloud</i>Number of users</a></li>
+                <li><a href="#!">Number of Active Users</a></li>
+                <li>
+                    <div class="divider"></div>
+                </li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            </ul>
+            <asp:Button ID="BtnLogout" runat="server" Text="Logout" class="right blue lighten-1 btn" OnClick="BtnLogout_Click" Style="margin-top: 5px; margin-right: 5px" />
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+    </form>
+</body>
+</html>
